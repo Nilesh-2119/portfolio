@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Nilesh Kale | Full-Stack Developer & AI Automation Expert</title>
+    <meta name="description"
+        content="Nilesh Kale - Expert in Web Applications, Landing Pages, Software Solutions & AI Automation. Transforming ideas into powerful digital experiences for businesses worldwide.">
+    <meta name="keywords"
+        content="web developer, full-stack developer, AI automation, software solutions, landing pages, React developer, Python developer, freelance developer">
+    <meta name="author" content="Nilesh Kale">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nilesh Kale | Full-Stack Developer & AI Automation Expert">
+    <meta property="og:description"
+        content="Transforming ideas into powerful digital experiences. Web apps, landing pages, software solutions & AI automation.">
+    <meta property="og:image" content="assests/pfp.png">
+    <meta property="og:url" content="">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nilesh Kale | Full-Stack Developer & AI Automation Expert">
+    <meta name="twitter:description"
+        content="Transforming ideas into powerful digital experiences. Web apps, landing pages, software solutions & AI automation.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nilesh Kale",
+        "email": "kansatsusha@gmail.com",
+        "jobTitle": "Full-Stack Developer & AI Automation Expert",
+        "description": "Expert in Web Applications, Landing Pages, Software Solutions & AI Automation",
+        "knowsAbout": ["Web Development", "AI Automation", "Software Engineering", "React", "Python", "JavaScript"],
+        "makesOffer": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Web Application Development"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Landing Page Design"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Automation Solutions"
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">NK</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Let's Talk</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for Projects
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">I Build</span>
+                <span class="title-line gradient-text">Digital Experiences</span>
+                <span class="title-line">That Convert</span>
+            </h1>
+            <p class="hero-description">
+                Full-Stack Developer & AI Automation Expert crafting high-performance
+                web applications, stunning landing pages, and intelligent automation
+                solutions for businesses worldwide.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Start a Project</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#portfolio" class="btn btn-secondary">View My Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assests/pfp.png" alt="Nilesh Kale - Full-Stack Developer" loading="lazy">
+                        <div class="image-decoration"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-text">Years of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">Turning Complex Problems Into <span class="gradient-text">Elegant
+                            Solutions</span></h2>
+                    <p class="about-text">
+                        Hi, I'm <strong>Nilesh Kale</strong> – a passionate full-stack developer and AI automation
+                        specialist based in India. I help businesses worldwide transform their ideas into
+                        powerful digital products that drive results.
+                    </p>
+                    <p class="about-text">
+                        With expertise spanning modern web technologies, cloud architectures, and cutting-edge
+                        AI tools, I deliver solutions that are not just functional but exceptional. My approach
+                        combines technical excellence with a deep understanding of business objectives.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22,4 12,14.01 9,11.01" />
+                                </svg>
+                            </div>
+                            <span>Clean, Maintainable Code</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22,4 12,14.01 9,11.01" />
+                                </svg>
+                            </div>
+                            <span>Pixel-Perfect Design Implementation</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22,4 12,14.01 9,11.01" />
+                                </svg>
+                            </div>
+                            <span>Performance-First Approach</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22,4 12,14.01 9,11.01" />
+                                </svg>
+                            </div>
+                            <span>Clear Communication</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-label">Tech Stack:</span>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">Services That <span class="gradient-text">Drive Results</span></h2>
+                <p class="section-subtitle">
+                    From concept to deployment, I provide end-to-end development services
+                    tailored to your business needs.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="web-apps">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" />
+                            <path d="M8 21h8M12 17v4" />
+                            <path d="M7 8l3 3-3 3M12 14h4" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Applications</h3>
+                    <p class="service-description">
+                        Custom-built, scalable web applications using modern frameworks.
+                        From SaaS platforms to complex dashboards, I deliver robust solutions
+                        that grow with your business.
+                    </p>
+                    <ul class="service-features">
+                        <li>React / Next.js Development</li>
+                        <li>Django / Node.js Backend</li>
+                        <li>Database Design & API Integration</li>
+                        <li>Cloud Deployment (AWS, Vercel)</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">Starting at $2,500</span>
+                    </div>
+                </div>
+
+                <div class="service-card featured" data-service="landing-pages">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+                            <path d="M2 8h20" />
+                            <circle cx="5" cy="6" r="0.5" fill="currentColor" />
+                            <circle cx="7.5" cy="6" r="0.5" fill="currentColor" />
+                            <circle cx="10" cy="6" r="0.5" fill="currentColor" />
+                            <path d="M6 12h4M6 15h8" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Landing Pages</h3>
+                    <p class="service-description">
+                        High-converting landing pages that capture attention and drive action.
+                        Pixel-perfect designs with optimized performance and SEO best practices.
+                    </p>
+                    <ul class="service-features">
+                        <li>Conversion-Focused Design</li>
+                        <li>Mobile-First Responsive</li>
+                        <li>SEO Optimized</li>
+                        <li>Fast Loading (<2s)< /li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">Starting at $800</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="software">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Software Solutions</h3>
+                    <p class="service-description">
+                        Custom software development for unique business challenges.
+                        I build tailored solutions that automate processes and enhance productivity.
+                    </p>
+                    <ul class="service-features">
+                        <li>Custom Business Tools</li>
+                        <li>CRM & ERP Systems</li>
+                        <li>Process Automation</li>
+                        <li>Third-Party Integrations</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">Custom Quote</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="ai-automation">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z" />
+                            <path d="M12 12v10" />
+                            <path d="M6 18h12" />
+                            <circle cx="6" cy="18" r="2" />
+                            <circle cx="18" cy="18" r="2" />
+                            <path d="M9 6h6" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Automation</h3>
+                    <p class="service-description">
+                        Leverage the power of AI to automate repetitive tasks, analyze data,
+                        and create intelligent workflows that save time and reduce costs.
+                    </p>
+                    <ul class="service-features">
+                        <li>ChatGPT / OpenAI Integration</li>
+                        <li>Custom AI Agents & Bots</li>
+                        <li>Workflow Automation</li>
+                        <li>Data Processing & Analysis</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price">Starting at $1,500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">
+                    A selection of my recent work showcasing expertise across various domains.
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card large">
+                    <div class="portfolio-image">
+                        <img src="assests/project-ecommerce.png" alt="E-Commerce Platform Dashboard" loading="lazy">
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">SaaS</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Django</span>
+                        </div>
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <p class="portfolio-description">
+                            Full-featured e-commerce platform with inventory management,
+                            payment processing, and real-time analytics dashboard.
+                        </p>
+                        <div class="portfolio-stats">
+                            <span><strong>40%</strong> increase in conversions</span>
+                            <span><strong>2.5s</strong> avg load time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="assests/project-landing.png" alt="SaaS Landing Page Design" loading="lazy">
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Landing Page</span>
+                            <span class="tag">Animation</span>
+                        </div>
+                        <h3 class="portfolio-title">SaaS Landing Page</h3>
+                        <p class="portfolio-description">
+                            High-converting landing page with micro-animations and optimized for lead generation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="assests/project-dashboard.png" alt="Analytics Dashboard Interface" loading="lazy">
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                        <h3 class="portfolio-title">Analytics Dashboard</h3>
+                        <p class="portfolio-description">
+                            Real-time data visualization dashboard with custom charts and reporting.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="assests/project-ai-bot.png" alt="AI Customer Support Chatbot" loading="lazy">
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <h3 class="portfolio-title">AI Customer Support Bot</h3>
+                        <p class="portfolio-description">
+                            Intelligent chatbot reducing support tickets by 60% using GPT integration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="assests/project-food-app.png" alt="Food Delivery Mobile App" loading="lazy">
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-tags">
+                            <span class="tag">Mobile</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                        <h3 class="portfolio-title">Food Delivery App</h3>
+                        <p class="portfolio-description">
+                            Progressive web app for food ordering with real-time tracking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Discuss Your Project</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Reviews</span>
+                <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>JD</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>John Davidson</h4>
+                            <span>CEO, TechStart Inc.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Nilesh delivered our e-commerce platform ahead of schedule and exceeded all expectations.
+                        His attention to detail and technical expertise are truly remarkable. Highly recommended!"
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>SM</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Mitchell</h4>
+                            <span>Founder, GreenLeaf Co.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "The landing page Nilesh created for us increased our conversion rate by 45%.
+                        His understanding of UX and modern design trends made all the difference."
+                    </p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <span>MR</span>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Michael Roberts</h4>
+                            <span>CTO, DataFlow Systems</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#fbbf24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "The AI automation tools Nilesh built for us saved 20+ hours per week.
+                        Professional, responsive, and incredibly skilled. A true expert in his field."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Let's Build Something <span class="gradient-text">Amazing Together</span>
+                    </h2>
+                    <p class="contact-description">
+                        Have a project in mind? I'd love to hear about it. Drop me a message and
+                        let's discuss how we can bring your vision to life.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:kansatsusha@gmail.com" class="contact-value">kansatsusha@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">India (Available Worldwide)</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Response Time</span>
+                                <span class="contact-value">Within 24 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="web-app">Web Application</option>
+                                <option value="landing-page">Landing Page</option>
+                                <option value="software">Software Solution</option>
+                                <option value="ai-automation">AI Automation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget" required>
+                                <option value="" disabled selected>Select your budget</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-2500">$1,000 - $2,500</option>
+                                <option value="2500-5000">$2,500 - $5,000</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000+">$10,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13" />
+                                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-text">NK</span>
+                        <span class="logo-dot"></span>
+                    </a>
+                    <p>Crafting digital experiences that make a difference.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#services">Web Applications</a>
+                        <a href="#services">Landing Pages</a>
+                        <a href="#services">AI Automation</a>
+                        <a href="#services">Software Solutions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nilesh Kale. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
